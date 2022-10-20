@@ -1865,7 +1865,7 @@ article:last-child {
 .image.avatar48 {
   width: 48px;
   height: 48px;
-  background: #f00;
+  background: none;
 }
 
 .image.avatar48 img {
@@ -2380,8 +2380,9 @@ button:active,
 }
 
 #main > section.one {
+  height: 100vh;
   background-color: #81918e;
-  background-image: url("../../images/banner.jpg");
+  background-image: url("../../images/pc_pic.jpg");
 }
 
 #main > section.two {
